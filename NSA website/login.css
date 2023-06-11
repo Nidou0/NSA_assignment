@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+}
+.page {
+    width: 500px;
+    height: 500px;
+    background-color:turquoise;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.navigation-bar a{
+    text-decoration: none;
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+    
+    
+  }
+a:hover{text-decoration: none; 
+    color: black; }
+
+a:active { text-decoration: none; 
+    color: white}

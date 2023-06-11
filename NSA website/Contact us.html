@@ -1,0 +1,81 @@
+<html lang="en">
+    <head>
+        <script>
+            function Validation() {
+                var name = document.myForm.name.value;
+                var email = document.myForm.email.value;
+                var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/
+
+
+
+                if(name == ("")  || email == ("")){
+                    alert("One or more fields are left blank, please check again");
+                    return false;
+                }
+                else if(email.match(pattern)){
+                    
+                    return true;
+                }
+                else {
+                    alert("Invalid email, please check again");
+                    return false;
+                }
+                }
+            
+            
+        </script>
+        <link rel="stylesheet" href="CSS1.css">
+        <title>NSA Assignment</title>
+        <meta charset="utf-8">
+    </head>
+    <header>
+        <nav class="navigation-bar">
+            <b><a href= "index.html">Home&nbsp;</a> </td>        
+            <a href="Contact us.html">Contact us</a></b></td>  
+        </nav>
+          <br>
+          <br>
+    </header>
+    <body>
+    
+        <h1  id="top">NSA Assignment </h1>
+       
+        <main>
+            <h2> About US</h2>
+            <img src="" class="aboutme" ALIGN="left" >
+            <p>We are group number 5 and this is our website for the NSA Assignment
+                </p>
+                <p> 
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div>
+        <form name ="myForm" method="get" id="form"  action="submissionpage.html" onsubmit="return Validation()"> 
+        <input type="text" name="fname"  id="name" placeholder="Name">
+        <br><br>
+        <input type="text" name="email" id="email" placeholder="Email">
+        <span id="text"></span>
+        <br><br>
+        <textarea rows="4" cols="50" id="message" placeholder="Message"></textarea><br><br>
+        <input type="submit" value="Send your message" >
+        </form> 
+    </div>
+
+    </main>
+    <footer>
+        <small><i>Copyright &copy; 2022 Sunway University</i></small>
+    </footer>
+</body>
+</html>
