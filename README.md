@@ -1,0 +1,1 @@
+Final assesment for network and system adminstration, aim is to create DHCP, DNS and WEB servers, connect them together and host a WAP connection when connected the user will be redirected to the website
